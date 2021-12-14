@@ -26,7 +26,20 @@ header{
 header h2{
     color: #fff;
 }
-
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secundary-color);
+}
+footer p{
+    color: #fff;
+    margin: 5px;
+}
+.p1 {
+    padding-top: 10px;
+}
 .search{
     background-color: transparent;
     border: 2px solid  var(--primary-color);
